@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/factorybuilding" />
+
+    <TextView
+        android:id="@+id/tvLocality"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/ivImage"
+        android:paddingVertical="8dp" />
+
+    <TextView
+        android:id="@+id/tvLat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvLocality"
+        android:layout_toEndOf="@+id/ivImage"
+        android:paddingVertical="8dp" />
+
+    <TextView
+        android:id="@+id/tvLng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvLat"
+        android:layout_toEndOf="@+id/ivImage"
+        android:paddingVertical="8dp" />
+</RelativeLayout>
